@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form Demo</title>
+	</head>
+	<body>
+		<form>
+		<!--text box-->
+			<label for='fullname'>Fullname: </label>
+			<input type='text' name='fullname' id='fullname'><br>
+			
+			<!--Checkbox-->	
+			
+			<label> Select cities you've visited before</label><br>
+			<input type='checkbox' name='city1'value='Kano'>
+			<label>Kano</label> <br>
+			<input type='checkbox' name='city2'value='Jos'>
+			<label>Jos</label> <br>
+			<input type='checkbox' name='city3'value='Abuja'>
+			<label>Abuja</label> <br>
+			<input type='checkbox' name='city4'value='Benin'>
+			<label>Benin</label> <br>
+			<input type='checkbox' name='city1'value='Asaba'>
+			<label>Asaba</label> <br>
+			
+			<!--radio button-->
+			
+			<label>Gender</label> <br>
+			<input type='radio' name='gender' value='male'><label>Male</label><br>
+			<input type='radio' name='gender' value='female'><label>Female</label><br>
+			<input type='radio' name='gender' value='other'><label>Other</label><br>
+			
+			<!--password-->
+			
+			<label>Password:</label>
+			<input type='password' name='mypassword'><br>
+			
+			<!--upload file-->
+			
+			<label>Upload Resume</label>
+			<input type='file' name='resume' multiple><br>
+			
+			<!--drop down-->
+			
+			<label>West African Countries</label><br>
+			<select name='country'>
+			<option value=''>Select Country</option>
+			<option value='234'>Nigeria</option>
+			<option value='233'>Ghana</option>
+			<option value='232'>Togo</option>
+			<option value='231'>Mali</option>
+			<option value='230'>Senegal</option>
+			</select>
+			<br>
+			
+			<!--Text area-->
+			<label>Comments</label><br>
+			<textarea name='comment' rows='10' cols='100'></textarea><br>
+			
+			<label>Choose Color<label>
+			<input type='color' name='mycolor'><br>
+			<!--buttons-->
+			 
+			<input type='reset' name='reset' value='Clear'>
+			<input type='submit' name='submit' value='Register'><br>
+			
+			
+			
+			<!--html5 button tag; can be reset, submit or button. Not specified= button -->
+			<button type='button'>Calculate Age</button>
+		</form>
+	</body>
+	
+	
+</html>
